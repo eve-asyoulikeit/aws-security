@@ -1,0 +1,3 @@
+# .gitbook.yaml
+# Point GitBook content root at notes/ so tag folders are the top level of nav.
+root: ./notes/
