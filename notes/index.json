@@ -1,0 +1,14 @@
+[
+  {
+    "path": "cross-tenant/reading-other-aws-accounts-sql-on-amazon-athena.md",
+    "title": "Reading other AWS accounts' SQL on Amazon Athena",
+    "tags": [
+      "cross-tenant",
+      "athena",
+      "trino"
+    ],
+    "source_url": "https://act.security/resources/reading-other-aws-accounts-sql-on-amazon-athena",
+    "committed_at": "2026-09-09T05:21:13+00:00",
+    "summary": "Cross-tenant flaw in Amazon Athena let an undocumented Catalog=system parameter on StartQueryExecution read other AWS accounts' full SQL text and account IDs from Trino's runtime.queries table; AWS fixed it globally in 4 days (no customer action needed)."
+  }
+]
