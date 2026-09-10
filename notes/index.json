@@ -10,5 +10,17 @@
     "source_url": "https://act.security/resources/reading-other-aws-accounts-sql-on-amazon-athena",
     "committed_at": "2026-09-09T05:21:13+00:00",
     "summary": "Cross-tenant flaw in Amazon Athena let an undocumented Catalog=system parameter on StartQueryExecution read other AWS accounts' full SQL text and account IDs from Trino's runtime.queries table; AWS fixed it globally in 4 days (no customer action needed)."
+  },
+  {
+    "path": "credential-abuse/so-you-found-aws-access-keys-part-1.md",
+    "title": "So… You Found AWS Access Keys (Part 1)",
+    "tags": [
+      "credential-abuse",
+      "iam",
+      "post-exploitation"
+    ],
+    "source_url": "https://trustedsec.com/blog/so-you-found-aws-access-keys-part-1",
+    "committed_at": "2026-09-10T20:26:05+00:00",
+    "summary": "Practical breakdown of AWS access-key types, where they turn up during engagements, and how to validate and use them once found."
   }
 ]
