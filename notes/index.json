@@ -22,5 +22,17 @@
     "source_url": "https://trustedsec.com/blog/so-you-found-aws-access-keys-part-1",
     "committed_at": "2026-09-10T20:26:05+00:00",
     "summary": "Practical breakdown of AWS access-key types, where they turn up during engagements, and how to validate and use them once found."
+  },
+  {
+    "path": "tooling/prowler-5-42-0.md",
+    "title": "Prowler 5.42.0",
+    "tags": [
+      "tooling",
+      "compliance",
+      "prowler"
+    ],
+    "source_url": "tag:github.com,2008:Repository/66474729/5.42.0",
+    "committed_at": "2026-09-11T19:22:00+00:00",
+    "summary": "Prowler 5.42.0 adds AWS ISO-partition scanning, configurable connect/read timeouts for restricted-egress networks, reusable Trivy vulnerability-database caching for image scans, and fixes duplicate/stale compliance-check references across 42 frameworks."
   }
 ]
