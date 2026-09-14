@@ -34,5 +34,17 @@
     "source_url": "tag:github.com,2008:Repository/66474729/5.42.0",
     "committed_at": "2026-09-11T19:22:00+00:00",
     "summary": "Prowler 5.42.0 adds AWS ISO-partition scanning, configurable connect/read timeouts for restricted-egress networks, reusable Trivy vulnerability-database caching for image scans, and fixes duplicate/stale compliance-check references across 42 frameworks."
+  },
+  {
+    "path": "compliance/aws-security-reference-architecture-a-deep-dive-into-pci-dss-compliance.md",
+    "title": "AWS Security Reference Architecture: A deep dive into PCI DSS compliance",
+    "tags": [
+      "compliance",
+      "pci-dss",
+      "aws-sra"
+    ],
+    "source_url": "9820477afc39e54956fd4fd9dd1e38a7036b9b87",
+    "committed_at": "2026-09-14T19:31:49+00:00",
+    "summary": "AWS extends the AWS Security Reference Architecture with a PCI DSS deep dive mapping SRA account-scoping and service-configuration patterns to PCI DSS requirements (account/CDE scoping, encryption, logging, access control) for organizations building or assessing a PCI-scoped multi-account landing zone."
   }
 ]
