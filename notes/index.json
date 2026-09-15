@@ -46,5 +46,17 @@
     "source_url": "9820477afc39e54956fd4fd9dd1e38a7036b9b87",
     "committed_at": "2026-09-14T19:31:49+00:00",
     "summary": "AWS extends the AWS Security Reference Architecture with a PCI DSS deep dive mapping SRA account-scoping and service-configuration patterns to PCI DSS requirements (account/CDE scoping, encryption, logging, access control) for organizations building or assessing a PCI-scoped multi-account landing zone."
+  },
+  {
+    "path": "iam/operationalizing-least-privilege-automate-iam-remediation-through-your-ci-cd-pipeline.md",
+    "title": "Operationalizing least privilege: Automate IAM remediation through your CI/CD pipeline",
+    "tags": [
+      "iam",
+      "automation",
+      "ci-cd"
+    ],
+    "source_url": "655dce2552e057a970b7bf591d74f47f0fc54ff5",
+    "committed_at": "2026-09-15T19:51:46+00:00",
+    "summary": "Automated workflow classifies IAM Access Analyzer findings by role provenance and produces a CDK pull request, an issue with migration guidance, or a monitored decommission plan, turning unused-permission detection into durable remediation that survives the next IaC deployment."
   }
 ]
