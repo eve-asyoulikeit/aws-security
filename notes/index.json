@@ -58,5 +58,16 @@
     "source_url": "655dce2552e057a970b7bf591d74f47f0fc54ff5",
     "committed_at": "2026-09-15T19:51:46+00:00",
     "summary": "Automated workflow classifies IAM Access Analyzer findings by role provenance and produces a CDK pull request, an issue with migration guidance, or a monitored decommission plan, turning unused-permission detection into durable remediation that survives the next IaC deployment."
+  },
+  {
+    "path": "iam/aws-sts-simplifies-session-token-size-limits-and-adds-session-token-size-monitoring.md",
+    "title": "AWS STS simplifies session token size limits and adds session token size monitoring",
+    "tags": [
+      "iam",
+      "sts"
+    ],
+    "source_url": "4310321b5bbaec5ed0fa81752fad3a7e52ccc318",
+    "committed_at": "2026-09-16T19:29:24+00:00",
+    "summary": "AWS STS replaces separate packed-policy and overall-token size limits with a single 4,096-byte session token limit, and now exposes session token size in API responses/CloudTrail/CloudWatch plus a new MinimumSessionTokenSize testing parameter."
   }
 ]
