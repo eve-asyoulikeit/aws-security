@@ -81,5 +81,17 @@
     "source_url": "https://blog.doyensec.com/2026/05/05/cloudsectidbits-masso-cognito-sso",
     "committed_at": "2026-09-17T19:27:39+00:00",
     "summary": "In multi-tenant Cognito User Pools with multiple registered external IdPs, gaps in Lambda trigger execution ordering (only TokenGeneration is shared between first federated sign-in and later sign-ins) let a malicious or compromised external IdP bypass identity constraints enforced in only one of the two auth chains."
+  },
+  {
+    "path": "load-balancing/navigating-lax-load-balancers-when-an-intersection-gets-you-inside.md",
+    "title": "Navigating Lax Load Balancers: When an Intersection Gets You Inside",
+    "tags": [
+      "load-balancing",
+      "misconfiguration",
+      "waf-bypass"
+    ],
+    "source_url": "https://blog.doyensec.com/2026/05/25/cloudsectidbits-elbaph-alb",
+    "committed_at": "2026-09-17T19:27:47+00:00",
+    "summary": "Catalogs recurring ALB/ELB routing misconfigurations - direct-to-origin CloudFront/WAF bypass, listener rule shadowing, and target groups reachable outside the intended entry point - that static config review misses because it doesn't trace the actual reachable routing graph."
   }
 ]
