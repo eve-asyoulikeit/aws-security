@@ -69,5 +69,17 @@
     "source_url": "4310321b5bbaec5ed0fa81752fad3a7e52ccc318",
     "committed_at": "2026-09-16T19:29:24+00:00",
     "summary": "AWS STS replaces separate packed-policy and overall-token size limits with a single 4,096-byte session token limit, and now exposes session token size in API responses/CloudTrail/CloudWatch plus a new MinimumSessionTokenSize testing parameter."
+  },
+  {
+    "path": "cognito/the-danger-of-multi-sso-aws-cognito-user-pools.md",
+    "title": "The Danger of Multi-SSO AWS Cognito User Pools",
+    "tags": [
+      "cognito",
+      "sso",
+      "identity"
+    ],
+    "source_url": "https://blog.doyensec.com/2026/05/05/cloudsectidbits-masso-cognito-sso",
+    "committed_at": "2026-09-17T19:27:39+00:00",
+    "summary": "In multi-tenant Cognito User Pools with multiple registered external IdPs, gaps in Lambda trigger execution ordering (only TokenGeneration is shared between first federated sign-in and later sign-ins) let a malicious or compromised external IdP bypass identity constraints enforced in only one of the two auth chains."
   }
 ]
