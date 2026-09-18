@@ -93,5 +93,17 @@
     "source_url": "https://blog.doyensec.com/2026/05/25/cloudsectidbits-elbaph-alb",
     "committed_at": "2026-09-17T19:27:47+00:00",
     "summary": "Catalogs recurring ALB/ELB routing misconfigurations - direct-to-origin CloudFront/WAF bypass, listener rule shadowing, and target groups reachable outside the intended entry point - that static config review misses because it doesn't trace the actual reachable routing graph."
+  },
+  {
+    "path": "credential-abuse/attacker-infrastructure-but-vibe-coded-tracking-the-evolution-of-credential-harvesting-platforms.md",
+    "title": "Attacker infrastructure, but vibe-coded: tracking the evolution of credential harvesting platforms",
+    "tags": [
+      "credential-abuse",
+      "bedrock",
+      "phishing-infrastructure"
+    ],
+    "source_url": "https://securitylabs.datadoghq.com/articles/attacker-infrastructure-but-vibe-coded/",
+    "committed_at": "2026-09-18T19:39:35+00:00",
+    "summary": "Datadog Security Labs examines two AI-assisted ('vibe-coded') credential-harvesting phishing platforms, Loot and UltraVault, which abuse Amazon Bedrock to validate stolen credentials at scale."
   }
 ]
