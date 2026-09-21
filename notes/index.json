@@ -105,5 +105,17 @@
     "source_url": "https://securitylabs.datadoghq.com/articles/attacker-infrastructure-but-vibe-coded/",
     "committed_at": "2026-09-18T19:39:35+00:00",
     "summary": "Datadog Security Labs examines two AI-assisted ('vibe-coded') credential-harvesting phishing platforms, Loot and UltraVault, which abuse Amazon Bedrock to validate stolen credentials at scale."
+  },
+  {
+    "path": "detection-engineering/transforming-bedrock-guardrails-events-into-ocsf-with-cloudwatch.md",
+    "title": "Transforming Bedrock Guardrails events into OCSF with CloudWatch",
+    "tags": [
+      "detection-engineering",
+      "bedrock",
+      "ocsf"
+    ],
+    "source_url": "a0a2ba82eb2fee43eebb7373c4985ea8fdd6fd7e",
+    "committed_at": "2026-09-21T19:40:02+00:00",
+    "summary": "Shows how to normalize AWS Bedrock Guardrails intervention events into OCSF and land them in the CloudWatch unified data store for cross-correlation with CloudTrail and VPC Flow Logs."
   }
 ]
