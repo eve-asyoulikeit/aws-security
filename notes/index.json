@@ -129,5 +129,17 @@
     "source_url": "tag:github.com,2008:Repository/66474729/5.43.0",
     "committed_at": "2026-09-21T19:40:05+00:00",
     "summary": "Prowler 5.43.0 adds unified FedRAMP 20x 2026 compliance frameworks, new AWS Inspector/CISA-KEV/FIPS checks, GovCloud partition bootstrap failover, and Azure sovereign-cloud endpoint support."
+  },
+  {
+    "path": "credential-abuse/from-exposure-to-lockdown-how-aws-neutralizes-compromised-iam-credentials-through-managed-policies.md",
+    "title": "From Exposure to Lockdown: How AWS Neutralizes Compromised IAM Credentials through Managed Policies",
+    "tags": [
+      "credential-abuse",
+      "iam",
+      "incident-response"
+    ],
+    "source_url": "https://unit42.paloaltonetworks.com/?p=186917",
+    "committed_at": "2026-09-21T19:40:20+00:00",
+    "summary": "Unit 42 explains how AWS's GitHub secret-scanning partnership and CloudTrail anomaly monitoring trigger managed quarantine policies to automatically neutralize exposed IAM credentials."
   }
 ]
