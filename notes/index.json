@@ -117,5 +117,17 @@
     "source_url": "a0a2ba82eb2fee43eebb7373c4985ea8fdd6fd7e",
     "committed_at": "2026-09-21T19:40:02+00:00",
     "summary": "Shows how to normalize AWS Bedrock Guardrails intervention events into OCSF and land them in the CloudWatch unified data store for cross-correlation with CloudTrail and VPC Flow Logs."
+  },
+  {
+    "path": "tooling/prowler-5-43-0.md",
+    "title": "Prowler 5.43.0",
+    "tags": [
+      "tooling",
+      "compliance",
+      "prowler"
+    ],
+    "source_url": "tag:github.com,2008:Repository/66474729/5.43.0",
+    "committed_at": "2026-09-21T19:40:05+00:00",
+    "summary": "Prowler 5.43.0 adds unified FedRAMP 20x 2026 compliance frameworks, new AWS Inspector/CISA-KEV/FIPS checks, GovCloud partition bootstrap failover, and Azure sovereign-cloud endpoint support."
   }
 ]
