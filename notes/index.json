@@ -141,5 +141,17 @@
     "source_url": "https://unit42.paloaltonetworks.com/?p=186917",
     "committed_at": "2026-09-21T19:40:20+00:00",
     "summary": "Unit 42 explains how AWS's GitHub secret-scanning partnership and CloudTrail anomaly monitoring trigger managed quarantine policies to automatically neutralize exposed IAM credentials."
+  },
+  {
+    "path": "tooling/prowler-5-44-0.md",
+    "title": "Prowler 5.44.0",
+    "tags": [
+      "tooling",
+      "compliance",
+      "prowler"
+    ],
+    "source_url": "https://github.com/prowler-cloud/prowler/releases/tag/5.44.0",
+    "committed_at": "2026-09-29T19:46:37+00:00",
+    "summary": "Prowler 5.44.0 adds partial-scan resource re-checks, a one-step AWS account-connect wizard, and S3-compatible/air-gapped self-hosted storage support."
   }
 ]
